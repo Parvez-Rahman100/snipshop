@@ -20,7 +20,7 @@ const Hero = () => {
             of Snipshop for a better outlook.
           </p>
           <div className="flex justify-between items-center">
-            <button className=" w-[145px] h-[44px] rounded-[42px] btn bg-[#2B2B2B] text-white">
+            <button className=" w-[145px] h-[44px] rounded-[42px] btn hover:text-[#2B2B2B] hover:bg-white bg-[#2B2B2B] text-white">
               SHOP NOW
             </button>
             <p className="text-[#262626] font-medium text-sm">
