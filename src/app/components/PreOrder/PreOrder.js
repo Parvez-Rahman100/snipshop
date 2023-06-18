@@ -32,7 +32,7 @@ const PreOrder = () => {
         <div className="grid lg:grid-cols-4 gap-10 grid-cols-1">
           <div className="flex justify-center items-center">
             <BsFillArrowLeftCircleFill size={30} className=" mr-2  " />
-            <BsArrowRightCircle size={30} className="" />
+            <BsArrowRightCircle size={30} />
           </div>
           {preProduct?.products
             ?.slice(0, 3)
