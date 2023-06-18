@@ -10,7 +10,7 @@ import brandBg from "../../../assets/brandBg.png";
 
 const Brands = () => {
   return (
-    <div className="container mx-auto mt-24">
+    <div className="container mx-auto pt-24 bg-[#F4FCFF]">
       <div className="flex justify-evenly items-center">
         <div
           style={{

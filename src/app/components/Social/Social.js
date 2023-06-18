@@ -10,7 +10,7 @@ import watch from "../../../assets/watch.png";
 
 const Social = () => {
   return (
-    <div className=" container mx-auto mt-48">
+    <div className=" container mx-auto pt-48 pb-48 bg-[#F4FCFF]">
       <div className="lg:flex lg:flex-row flex-col justify-around items-center">
         <div className=" mr-10">
           <h1 className=" font-bold text-4xl">Sell Easily on Socialmedia</h1>
