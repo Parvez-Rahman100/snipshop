@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <div className="bg-gradient-to-r from-[#D3F6FB] to-[#7DE1EF]">
-      <div className="container mx-auto flex items-center justify-evenly text-[#5F5F5F] font-normal">
+      <div className="container mx-auto lg:flex-row flex-col lg:flex items-center justify-evenly text-[#5F5F5F] font-normal">
         <p className="cursor-pointer">Jewelry & Accessories</p>
         <p className="cursor-pointer border-b-2 border-[#041318]">
           Clothing & Shoes

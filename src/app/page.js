@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import PreOrder from "./components/PreOrder/PreOrder";
+import Social from "./components/Social/Social";
 import TrendProducts from "./components/TrendProducts/TrendProducts";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Catagory />
       <PreOrder />
       <Brands />
+      <Social />
     </div>
   );
 }

@@ -30,7 +30,7 @@ const TrendProducts = () => {
           <BsFillArrowRightCircleFill size={18} className="text-[#2B2B2B]" />
         </div>
       </div>
-      <div className="flex justify-between items-center ">
+      <div className="lg:flex lg:flex-row flex-col justify-between items-center ">
         <div className="pr-20 pl-6 rounded-2xl bg-gradient-to-l from-[#C0D4FE] to-[#ECF1FD]">
           <div className="relative pb-20">
             <div className="mr-3">
