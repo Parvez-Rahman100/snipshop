@@ -6,8 +6,8 @@ import emoji from "../../../assets/emoji.png";
 const Commentor = () => {
   return (
     <div className=" container mx-auto mt-24">
-      <div className=" lg:flex lg:flex-row flex-col justify-around items-center">
-        <div>
+      <div className=" lg:flex lg:flex-row flex-col justify-between items-center">
+        <div className="bg-[#CEF0FF] py-10 pl-40  ">
           <Image src={commentor} alt="commentor" />
         </div>
         <div className=" w-3/6">
@@ -18,7 +18,7 @@ const Commentor = () => {
           <p className=" font-normal text-xs mt-[2px] mb-10 text-[#7E7E7E]">
             Products Seller
           </p>
-          <p className=" italic font-medium text-xl text-justify mb-[52px] ">
+          <p className=" italic font-medium text-xl text-justify mb-[52px] w-3/4 ">
             “In 2 years, my business went from just me and my Shop site to 40
             employees, my own fulfillment center and over 22 million dollars in
             revenue.”

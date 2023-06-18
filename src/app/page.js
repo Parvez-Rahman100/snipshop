@@ -1,6 +1,7 @@
 import Brands from "./components/Brands/Brands";
 import Catagory from "./components/Catagory/Catagory";
 import Commentor from "./components/Commentor/Commentor";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
@@ -20,6 +21,7 @@ export default function Home() {
       <Brands />
       <Social />
       <Commentor />
+      <Footer />
     </div>
   );
 }
