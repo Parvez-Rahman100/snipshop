@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+.hero {
+  background-image: url(../assets/hero.png);
+  background-size: cover;
+  background-repeat: round;
+  background-position-y: top;
+}
+.brand {
+  background-image: url(../assets/brandBg.png);
+  background-size: 100%;
+  background-position-x: center;
+  background-position: 40%;
+  background-repeat: no-repeat;
+}
+.social {
+  background-image: url(../assets/socialBg.png);
+  background-repeat: no-repeat;
+}
+.comment {
+  background-image: url(../assets/commentBg.png);
+}
+
+.header {
+  background-image: url(../assets/hero.png);
+  background-size: cover;
+}
 .containers {
   width: 100%;
 }

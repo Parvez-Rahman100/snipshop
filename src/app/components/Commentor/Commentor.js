@@ -8,7 +8,11 @@ const Commentor = () => {
     <div className=" container mx-auto mt-24">
       <div className=" lg:flex lg:flex-row flex-col justify-between items-center">
         <div className="bg-[#CEF0FF] py-10 pl-40  ">
-          <Image src={commentor} alt="commentor" />
+          <Image
+            src={commentor}
+            alt="commentor"
+            className="comment border shadow-sm rounded-xl border-[#378EAA]"
+          />
         </div>
         <div className=" w-3/6">
           <div className=" flex justify-start items-center">

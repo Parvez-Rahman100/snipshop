@@ -1,12 +1,12 @@
 import Image from "next/image";
-import { BsFillArrowDownCircleFill } from "react-icons/bs";
+import { BsDot, BsFillArrowDownCircleFill } from "react-icons/bs";
 import camera from "../../../assets/camera.png";
 import lens from "../../../assets/lens.png";
 import stand from "../../../assets/stand.png";
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-r from-[#D3F6FB] to-[#7DE1EF] py-10">
+    <div className="hero pb-36 pt-24">
       <div className=" container mx-auto flex justify-evenly items-center ">
         <div className=" w-1/3">
           <p className="font-medium text-xs ">
@@ -29,12 +29,19 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div className="relative">
           <Image
             src={camera}
             alt="Camera"
             className=" rounded-full border-[10px] border-[#2062ff66]"
           />
+          <div className=" absolute bottom-[-35px] left-0 right-0 flex items-center">
+            <p>PREV</p>
+            <p className=" flex items-center">
+              <BsDot /> <BsDot /> <BsDot /> <BsDot /> <BsDot />
+            </p>
+            <p>NEXT</p>
+          </div>
         </div>
         <div className=" flex flex-col justify-center items-center">
           <div>

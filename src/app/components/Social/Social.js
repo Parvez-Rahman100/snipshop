@@ -22,38 +22,44 @@ const Social = () => {
             <BsArrowRight className="ml-3" />
           </div>
         </div>
-        <div className="relative">
-          <Image src={socialPerson} alt="socialPerson" />
-          <div className=" absolute bottom-[-100px] left-[-60px] gap-5 flex items-center">
-            <div className="relative">
-              <Image src={sunglass} alt="Sunglass" />
-              <div className=" absolute top-[10px] left-[10px]">
-                <Image src={facebook} alt="facebook logo" />
+        <div className="social">
+          <div className="relative ">
+            <Image src={socialPerson} alt="socialPerson" />
+            <div className=" absolute bottom-[-100px] left-[-60px] gap-5 flex items-center">
+              <div className="relative">
+                <Image src={sunglass} alt="Sunglass" />
+                <div className=" absolute top-[10px] left-[10px]">
+                  <Image src={facebook} alt="facebook logo" />
+                </div>
+                <div className=" absolute bottom-[10px] left-[10px]">
+                  <p className=" font-medium text-xs">$12</p>
+                </div>
               </div>
-              <div className=" absolute bottom-[10px] left-[10px]">
-                <p className=" font-medium text-xs">$12</p>
+              <div className=" relative">
+                <Image src={shoe} alt="Shoe" />
+                <div className=" absolute top-[10px] left-[10px]">
+                  <Image
+                    className=" w-4 h-4"
+                    src={instagram}
+                    alt="instagram logo"
+                  />
+                </div>
+                <div className=" absolute bottom-[10px] left-[10px]">
+                  <p className=" font-medium text-xs">$35</p>
+                </div>
               </div>
-            </div>
-            <div className=" relative">
-              <Image src={shoe} alt="Shoe" />
-              <div className=" absolute top-[10px] left-[10px]">
-                <Image
-                  className=" w-4 h-4"
-                  src={instagram}
-                  alt="instagram logo"
-                />
-              </div>
-              <div className=" absolute bottom-[10px] left-[10px]">
-                <p className=" font-medium text-xs">$35</p>
-              </div>
-            </div>
-            <div className="relative">
-              <Image src={watch} alt="watch" />
-              <div className=" absolute top-[10px] left-[10px]">
-                <Image className=" w-4 h-4" src={twitter} alt="twitter logo" />
-              </div>
-              <div className=" absolute bottom-[10px] left-[10px]">
-                <p className=" font-medium text-xs">$22</p>
+              <div className="relative">
+                <Image src={watch} alt="watch" />
+                <div className=" absolute top-[10px] left-[10px]">
+                  <Image
+                    className=" w-4 h-4"
+                    src={twitter}
+                    alt="twitter logo"
+                  />
+                </div>
+                <div className=" absolute bottom-[10px] left-[10px]">
+                  <p className=" font-medium text-xs">$22</p>
+                </div>
               </div>
             </div>
           </div>

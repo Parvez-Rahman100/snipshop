@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="navbar container mx-auto ">
         <div className="navbar-start">
           <a href=" /">
-            <Image src={logo} alt="logo" />
+            <Image src={logo} alt="logo" className=" w-36" />
           </a>
         </div>
         <div className="navbar-center">
@@ -19,11 +19,11 @@ const Navbar = () => {
               <input
                 type="text"
                 name="search"
-                className=" rounded-xl w-[593px] pl-2 h-[28px]"
+                className=" rounded-xl w-[593px] pl-2 h-[28px] py-5"
                 placeholder="Search SnipShop.com"
               />
-              <div className="absolute top-0 right-[-2px]">
-                <button className=" bg-[#4FA8E8] rounded rounded-l-full rounded-r-full flex justify-center items-center text-white w-[64px] h-[28px] ">
+              <div className="absolute top-0 right-[-6px]">
+                <button className=" bg-[#4FA8E8] rounded rounded-l-full rounded-r-full flex justify-center items-center text-white w-[75px] h-[40px] ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"
@@ -61,7 +61,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-700 text-black rounded-box w-52"
             >
               <li>
                 <a href=" #">Acount</a>
