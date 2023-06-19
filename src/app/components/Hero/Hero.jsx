@@ -40,7 +40,7 @@ const Hero = () => {
               alt="Camera"
               className=" rounded-full border-[10px] border-[#2062ff66]"
             />
-            <div className=" absolute bottom-[-70px] text-[#1D65FF] left-0 lg:flex lg:flex-row flex-col justify-evenly items-center w-full py-2 gap-2">
+            <div className=" absolute lg:bottom-[-70px] bottom-[-100px] text-[#1D65FF] left-0 lg:flex lg:flex-row flex-col justify-evenly items-center w-full py-2 gap-2">
               <a href="#item1">PREV</a>
 
               <a href="#item1">

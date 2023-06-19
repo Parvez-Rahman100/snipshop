@@ -8,8 +8,8 @@ import logo from "../../../assets/Logo.png";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#1E66FF] h-[78px] flex justify-center items-center">
-      <div className="navbar container mx-auto ">
+    <div className="bg-[#1E66FF] h-[78px] lg:flex lg:flex-row flex-col lg:pb-0 pb-60 justify-center items-center">
+      <div className="navbar container mx-auto lg:flex lg:flex-row flex-col gap-5  lg:gap-0 ">
         <div className="navbar-start">
           <a href=" /">
             <Image src={logo} alt="logo" className=" w-36" />
@@ -21,11 +21,11 @@ const Navbar = () => {
               <input
                 type="text"
                 name="search"
-                className=" rounded-xl w-[593px] pl-2 h-[28px] py-5"
+                className=" rounded-xl lg:w-[593px] w-60 pl-2 h-[28px] py-5"
                 placeholder="Search SnipShop.com"
               />
               <div className="absolute top-0 right-[-6px]">
-                <button className=" bg-[#4FA8E8] rounded rounded-l-full rounded-r-full flex justify-center items-center text-white w-[75px] h-[40px] ">
+                <button className=" bg-[#4FA8E8] rounded rounded-l-full rounded-r-full flex justify-center items-center text-white lg:w-[75px] w-[50px] h-[40px] ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"
@@ -45,8 +45,8 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <div className="navbar-end">
-          <div className="flex justify-center items-center text-white">
+        <div className="navbar-end lg:flex-row flex-col lg:flex lg:mb-0 mb-10 ">
+          <div className="flex justify-center items-center  text-white">
             <BsFillPersonFill />
             <p className="mx-3">Account</p>
           </div>

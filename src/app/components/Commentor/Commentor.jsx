@@ -5,7 +5,7 @@ import emoji from "../../../assets/emoji.png";
 
 const Commentor = () => {
   return (
-    <div className=" container mx-auto mt-24">
+    <div className="container mx-auto mt-24 carousel-item relative w-full">
       <div className=" lg:flex lg:flex-row flex-col justify-between items-center">
         <div className="bg-[#CEF0FF] py-10 pl-40  ">
           <Image
@@ -28,8 +28,12 @@ const Commentor = () => {
             revenue.”
           </p>
           <div className="flex justify-start items-center">
-            <BsFillArrowLeftCircleFill size={30} className=" mr-2  " />
-            <BsArrowRightCircle size={30} />
+            <a href="#comment1">
+              <BsFillArrowLeftCircleFill size={30} className=" mr-2  " />
+            </a>
+            <a href="#comment2">
+              <BsArrowRightCircle size={30} />
+            </a>
           </div>
         </div>
       </div>

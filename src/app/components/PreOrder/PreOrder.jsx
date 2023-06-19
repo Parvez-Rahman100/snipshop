@@ -32,9 +32,7 @@ const PreOrder = () => {
           <BsArrowRight className="ml-3" />
         </Link>
       </div>
-
       {/* cards here  */}
-
       <div className="carousel w-full">
         <div id="preOrder1" className="mt-16 carousel-item relative w-full">
           <div className="grid lg:grid-cols-4 gap-10 grid-cols-1">
