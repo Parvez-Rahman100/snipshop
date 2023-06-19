@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import {
   BsArrowRight,
@@ -21,10 +22,13 @@ const PreOrder = () => {
         <h1 className="font-bold font-spectral text-4xl text-center">
           Featured Product For <br /> Pre-Order
         </h1>
-        <div className=" absolute top-[10px] font-medium text-base right-0 flex justify-center items-center">
+        <Link
+          href="/Products"
+          className=" absolute top-[10px] font-medium text-base right-0 flex justify-center items-center"
+        >
           <p>Discover Our Products</p>
           <BsArrowRight className="ml-3" />
-        </div>
+        </Link>
       </div>
 
       {/* cards here  */}
