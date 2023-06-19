@@ -18,7 +18,7 @@ const PreOrder = () => {
   return (
     <div className="container mx-auto mt-48">
       <div className="relative">
-        <h1 className="font-bold text-4xl text-center">
+        <h1 className="font-bold font-spectral text-4xl text-center">
           Featured Product For <br /> Pre-Order
         </h1>
         <div className=" absolute top-[10px] font-medium text-base right-0 flex justify-center items-center">
