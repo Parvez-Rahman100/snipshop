@@ -34,18 +34,43 @@ const PreOrder = () => {
       </div>
 
       {/* cards here  */}
-      <div className="mt-16">
-        <div className="grid lg:grid-cols-4 gap-10 grid-cols-1">
-          <div className="flex justify-center items-center">
-            <BsFillArrowLeftCircleFill size={30} className="mr-2" />
-            <BsArrowRightCircle size={30} />
+
+      <div className="carousel w-full">
+        <div id="preOrder1" className="mt-16 carousel-item relative w-full">
+          <div className="grid lg:grid-cols-4 gap-10 grid-cols-1">
+            <div className="flex justify-center items-center">
+              <a href="#preOrder1">
+                <BsFillArrowLeftCircleFill size={30} className="mr-2" />
+              </a>
+              <a href="#preOrder2">
+                <BsArrowRightCircle size={30} />
+              </a>
+            </div>
+            {preProduct?.products
+              ?.slice(0, 3)
+              .reverse()
+              .map((pre, index) => (
+                <Pre key={index} pre={pre} />
+              ))}
           </div>
-          {preProduct?.products
-            ?.slice(0, 3)
-            .reverse()
-            .map((pre, index) => (
-              <Pre key={index} pre={pre} />
-            ))}
+        </div>
+        <div id="preOrder2" className="mt-16 carousel-item relative w-full">
+          <div className="grid lg:grid-cols-4 gap-10 grid-cols-1">
+            <div className="flex justify-center items-center">
+              <a href="#preOrder1">
+                <BsFillArrowLeftCircleFill size={30} className="mr-2" />
+              </a>
+              <a href="#preOrder2">
+                <BsArrowRightCircle size={30} />
+              </a>
+            </div>
+            {preProduct?.products
+              ?.slice(0, 3)
+              .reverse()
+              .map((pre, index) => (
+                <Pre key={index} pre={pre} />
+              ))}
+          </div>
         </div>
       </div>
     </div>

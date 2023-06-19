@@ -78,7 +78,7 @@ const Hero = () => {
       </div>
       <div
         id="item2"
-        className="slider pb-36 pt-24 carousel-item relative w-full"
+        className="hero pb-36 pt-24 carousel-item relative w-full"
       >
         <div className=" container mx-auto flex justify-evenly items-center ">
           <div className=" w-1/3">
@@ -104,8 +104,10 @@ const Hero = () => {
           </div>
           <div className=" relative">
             <Image
+              width={390}
+              height={390}
               src={cat}
-              alt="Camera"
+              alt="product"
               className=" rounded-full border-[10px] border-[#2062ff66]"
             />
             <div className=" absolute bottom-[-70px] text-[#1D65FF] left-0 lg:flex flex-col lg:flex-row justify-evenly items-center w-full py-2 gap-2">

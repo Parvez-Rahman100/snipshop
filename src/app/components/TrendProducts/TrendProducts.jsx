@@ -8,7 +8,7 @@ import product5 from "../../../assets/product5.png";
 
 const TrendProducts = () => {
   return (
-    <div className=" mt-32 container mx-auto">
+    <div className="mt-32 container mx-auto">
       <h1 className=" font-bold text-4xl text-center">
         Shop Our Trending Products
       </h1>
@@ -31,8 +31,14 @@ const TrendProducts = () => {
           </p>
         </div>
         <div className="absolute top-0 right-0 flex justify-center items-center ">
-          <BsArrowLeftCircle size={18} className="bg-white text-black mr-2 " />
-          <BsFillArrowRightCircleFill size={18} className="text-[#2B2B2B]" />
+          <BsArrowLeftCircle
+            size={18}
+            className="bg-white text-black mr-2  cursor-pointer"
+          />
+          <BsFillArrowRightCircleFill
+            size={18}
+            className="text-[#2B2B2B] cursor-pointer"
+          />
         </div>
       </div>
       <div className="lg:flex  lg:flex-row flex-col justify-between items-center ">
