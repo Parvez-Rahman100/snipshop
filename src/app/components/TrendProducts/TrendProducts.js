@@ -36,8 +36,8 @@ const TrendProducts = () => {
           <BsFillArrowRightCircleFill size={18} className="text-[#2B2B2B]" />
         </div>
       </div>
-      <div className="lg:flex lg:flex-row flex-col justify-between items-center ">
-        <div className="pr-20 pl-6 rounded-2xl bg-gradient-to-l from-[#C0D4FE] to-[#ECF1FD]">
+      <div className="lg:flex  lg:flex-row flex-col justify-between items-center ">
+        <div className="pr-20 mb-4 lg:mb-0 pl-6 rounded-2xl bg-gradient-to-l from-[#C0D4FE] to-[#ECF1FD]">
           <div className="relative pb-20">
             <div className="mr-3">
               <p className=" font-semibold text-[22px]">Seven Zero Five</p>
@@ -49,7 +49,7 @@ const TrendProducts = () => {
             </div>
           </div>
         </div>
-        <div className="pr-20 pl-6 rounded-2xl bg-gradient-to-l from-[#E9EBF0] to-[#EDEDED]">
+        <div className="pr-20 pl-6 mb-5 lg:mx-0 rounded-2xl bg-gradient-to-l from-[#E9EBF0] to-[#EDEDED]">
           <div className="relative pb-20">
             <div className="mr-10">
               <p className="font-semibold text-[22px]">Clock</p>
@@ -61,7 +61,7 @@ const TrendProducts = () => {
             </div>
           </div>
         </div>
-        <div className="pr-20 pl-6 rounded-2xl bg-gradient-to-l from-[#EDEDED] to-[#F0EBFF]">
+        <div className="pr-20 pl-6 mb-5 lg:mx-0 rounded-2xl bg-gradient-to-l from-[#EDEDED] to-[#F0EBFF]">
           <div className="relative pb-20">
             <div className="mr-3">
               <p className=" font-semibold text-[22px]">Curology</p>
@@ -73,7 +73,7 @@ const TrendProducts = () => {
             </div>
           </div>
         </div>
-        <div className="pr-20 pl-6 rounded-2xl bg-gradient-to-l from-[#EBF9FF] to-[#EDEDED]">
+        <div className="pr-20 pl-6 mb-5 lg:mx-0 rounded-2xl bg-gradient-to-l from-[#EBF9FF] to-[#EDEDED]">
           <div className="relative pb-20">
             <div className="mr-10">
               <p className="font-semibold text-[22px]">Chair</p>
@@ -85,7 +85,7 @@ const TrendProducts = () => {
             </div>
           </div>
         </div>
-        <div className="pr-28 pl-6 rounded-2xl bg-gradient-to-l from-[#E9F0FF] to-[#EDEDED]">
+        <div className="pr-28 pl-6 mb-5 lg:mx-0 rounded-2xl bg-gradient-to-l from-[#E9F0FF] to-[#EDEDED]">
           <div className="relative pb-20 ">
             <div className="mr-3">
               <p className=" font-semibold text-[22px]">Curology</p>

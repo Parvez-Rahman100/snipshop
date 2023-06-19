@@ -12,8 +12,8 @@ const Hero = () => {
         id="item1"
         className="hero pb-36 pt-24 carousel-item relative w-full"
       >
-        <div className=" container mx-auto flex justify-evenly items-center ">
-          <div className=" w-1/3">
+        <div className=" container mx-auto lg:flex lg:flex-row flex-col  justify-evenly items-center ">
+          <div className=" lg:w-1/3 w-full lg:text-start text-center">
             <p className="font-medium text-xs ">
               100% QUALITY, 100% SATISFACTION
             </p>
@@ -24,7 +24,7 @@ const Hero = () => {
               Life is hard enough already. Let us make it a little easier,
               Vision of Snipshop for a better outlook.
             </p>
-            <div className="flex justify-between items-center">
+            <div className="lg:flex lg:flex-row flex-col justify-between items-center">
               <button className=" w-[145px] h-[44px] rounded-[42px] btn hover:text-[#2B2B2B] hover:bg-white bg-[#2B2B2B] text-white">
                 SHOP NOW
               </button>

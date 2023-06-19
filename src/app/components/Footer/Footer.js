@@ -11,8 +11,8 @@ import union from "../../../assets/Union.png";
 const Footer = () => {
   return (
     <div className="mt-24 bg-[#0E4B80] pt-16 ">
-      <div className=" lg:flex lg:flex-row flex-col justify-evenly items-center text-white">
-        <div className=" h-72">
+      <div className=" lg:flex lg:flex-row  flex-col justify-evenly items-center text-white">
+        <div className=" h-72 text-center lg:text-start">
           <h3 className="font-bold text-[22px] mb-[30px] cursor-pointer">
             Shop
           </h3>
@@ -23,7 +23,7 @@ const Footer = () => {
             SnipShop blog
           </p>
         </div>
-        <div className=" h-72">
+        <div className=" h-72 text-center lg:text-start">
           <h3 className="font-bold text-[22px] mb-[30px] cursor-pointer">
             Sell
           </h3>
@@ -40,7 +40,7 @@ const Footer = () => {
             Affiliates
           </p>
         </div>
-        <div className=" h-72">
+        <div className=" h-72 text-center lg:text-start">
           <h3 className="font-bold text-[22px] mb-[30px] cursor-pointer">
             About
           </h3>
@@ -63,7 +63,7 @@ const Footer = () => {
             Impact
           </p>
         </div>
-        <div className=" h-72">
+        <div className=" h-72 text-center lg:text-start">
           <h3 className="font-bold text-[22px] mb-[30px] cursor-pointer">
             Help
           </h3>

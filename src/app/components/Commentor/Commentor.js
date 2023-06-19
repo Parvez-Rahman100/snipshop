@@ -14,7 +14,7 @@ const Commentor = () => {
             className="comment border shadow-sm rounded-xl border-[#378EAA]"
           />
         </div>
-        <div className=" w-3/6">
+        <div className=" w-3/6 lg:mx-0 mx-auto">
           <div className=" flex justify-start items-center">
             <h1 className=" font-semibold text-xl">Justin Pierre</h1>
             <Image src={emoji} alt="emoji" />
