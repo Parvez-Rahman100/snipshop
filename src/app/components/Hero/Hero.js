@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div className="carousel w-full">
       <div
-        id="slide1"
+        id="item1"
         className="hero pb-36 pt-24 carousel-item relative w-full"
       >
         <div className=" container mx-auto flex justify-evenly items-center ">
@@ -41,25 +41,24 @@ const Hero = () => {
               className=" rounded-full border-[10px] border-[#2062ff66]"
             />
             <div className=" absolute bottom-[-70px] text-[#1D65FF] left-0 flex justify-evenly items-center w-full py-2 gap-2">
-              <a href="#slide1">PREV</a>
+              <a href="#item1">PREV</a>
 
-              <a href="#slide1">
+              <a href="#item1">
                 <BsDot size={20} />
               </a>
-              <a href="#slide2">
+              <a href="#item2">
                 <BsDot size={20} />
               </a>
-              <a href="#slide1">
+              <a href="#item2">
                 <BsDot size={20} />
               </a>
-              <a href="#slide2">
+              <a href="#item1">
                 <BsDot size={20} />
               </a>
-              <a href="#slide1">
+              <a href="#item2">
                 <BsDot size={20} />
               </a>
-
-              <a href="#slide2">NEXT</a>
+              <a href="#item2">NEXT</a>
             </div>
           </div>
           <div className=" flex flex-col justify-center items-center">
@@ -78,7 +77,7 @@ const Hero = () => {
         </div>
       </div>
       <div
-        id="slide2"
+        id="item2"
         className="slider pb-36 pt-24 carousel-item relative w-full"
       >
         <div className=" container mx-auto flex justify-evenly items-center ">
@@ -110,25 +109,24 @@ const Hero = () => {
               className=" rounded-full border-[10px] border-[#2062ff66]"
             />
             <div className=" absolute bottom-[-70px] text-[#1D65FF] left-0 flex justify-evenly items-center w-full py-2 gap-2">
-              <a href="#slide1">PREV</a>
+              <a href="#item1">PREV</a>
 
-              <a href="#slide1">
+              <a href="#item1">
                 <BsDot size={20} />
               </a>
-              <a href="#slide2">
+              <a href="#item2">
                 <BsDot size={20} />
               </a>
-              <a href="#slide1">
+              <a href="#item1">
                 <BsDot size={20} />
               </a>
-              <a href="#slide2">
+              <a href="#item2">
                 <BsDot size={20} />
               </a>
-              <a href="#slide1">
+              <a href="#item1">
                 <BsDot size={20} />
               </a>
-
-              <a href="#slide2">NEXT</a>
+              <a href="#item2">NEXT</a>
             </div>
           </div>
           <div className=" flex flex-col justify-center items-center">

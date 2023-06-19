@@ -18,12 +18,18 @@ const TrendProducts = () => {
       </p>
       <div className="relative mb-[76px]">
         <div className="flex justify-center items-center">
-          <p className=" ml-[18px] font-medium text-xs border-b-2 border-[#041318]">
+          <p className=" ml-[18px] font-medium text-xs border-b-2 border-[#041318] cursor-pointer">
             Fashion
           </p>
-          <p className=" ml-[18px] font-medium text-xs">Technology</p>
-          <p className=" ml-[18px] font-medium text-xs">Interiors</p>
-          <p className=" ml-[18px] font-medium text-xs">Food and Drink</p>
+          <p className=" ml-[18px] font-medium text-xs cursor-pointer">
+            Technology
+          </p>
+          <p className=" ml-[18px] font-medium text-xs cursor-pointer">
+            Interiors
+          </p>
+          <p className=" ml-[18px] font-medium text-xs cursor-pointer">
+            Food and Drink
+          </p>
         </div>
         <div className="absolute top-0 right-0 flex justify-center items-center ">
           <BsArrowLeftCircle size={18} className="bg-white text-black mr-2 " />
