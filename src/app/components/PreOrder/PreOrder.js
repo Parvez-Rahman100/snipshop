@@ -16,9 +16,9 @@ const PreOrder = () => {
       .then((data) => setPreProduct(data));
   }, []);
   return (
-    <div className=" container mx-auto mt-48">
-      <div className=" relative">
-        <h1 className=" font-bold text-4xl text-center">
+    <div className="container mx-auto mt-48">
+      <div className="relative">
+        <h1 className="font-bold text-4xl text-center">
           Featured Product For <br /> Pre-Order
         </h1>
         <div className=" absolute top-[10px] font-medium text-base right-0 flex justify-center items-center">
@@ -31,7 +31,7 @@ const PreOrder = () => {
       <div className="mt-16">
         <div className="grid lg:grid-cols-4 gap-10 grid-cols-1">
           <div className="flex justify-center items-center">
-            <BsFillArrowLeftCircleFill size={30} className=" mr-2  " />
+            <BsFillArrowLeftCircleFill size={30} className="mr-2" />
             <BsArrowRightCircle size={30} />
           </div>
           {preProduct?.products

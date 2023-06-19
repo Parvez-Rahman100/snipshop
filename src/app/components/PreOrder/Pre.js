@@ -1,17 +1,16 @@
 import Image from "next/image";
 
 const Pre = ({ pre }) => {
-  console.log(pre);
   return (
     <div>
-      <div className="card w-96 h-4/5 bg-base-100 ">
+      <div className="card h-4/5 bg-base-100 ">
         <figure className="px-10 pt-10 ">
           <Image
             width={290}
             height={262}
             src={pre.images[1]}
             alt="perfumes"
-            className="rounded-xl  "
+            className="rounded-xl"
           />
         </figure>
         <div className="card-body items-center text-center">

@@ -11,7 +11,7 @@ import TrendProducts from "./components/TrendProducts/TrendProducts";
 
 export default function Home() {
   return (
-    <div>
+    <div className=" font-popins">
       <Navbar />
       <Header />
       <Hero />
