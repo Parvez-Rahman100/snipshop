@@ -6,7 +6,7 @@ const Cat = ({ cat }) => {
   return (
     <div className=" ml-8">
       <Image src={cat?.img} className=" w-72 h-40" alt="slider" />
-      <h3 className=" mt-[22px] font-semibold text-lg">{cat?.name}</h3>
+      <h3 className="mt-[22px] font-semibold text-lg">{cat?.name}</h3>
       <div className=" font-light text-lg  flex  items-center mt-14">
         <p>{cat?.price}</p>
         <p

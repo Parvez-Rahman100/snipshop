@@ -43,11 +43,13 @@ const TrendProducts = () => {
       </div>
       <div className="lg:flex  lg:flex-row flex-col justify-between items-center ">
         <div className="pr-20 mb-5 lg:mb-0 pl-6 rounded-2xl bg-gradient-to-l from-[#C0D4FE] to-[#ECF1FD]">
-          <div className="relative pb-20">
+          <div className="relative pb-10">
             <div className="mr-3">
-              <p className=" font-semibold text-[22px]">Seven Zero Five</p>
-              <p className=" font-medium text-base text-[#475E68]">Starting</p>
-              <p className="text-[#FF4516] mt-[14px]">$10.00</p>
+              <p className=" font-semibold text-[22px] pt-7">Seven Zero Five</p>
+              <p className=" font-medium text-base text-[#475E68] pt-7">
+                Starting
+              </p>
+              <p className="text-[#FF4516] pt-7">$10.00</p>
             </div>
             <div className=" absolute top-[-48px] right-[-100px]">
               <Image src={product1} alt="product1" />
@@ -55,11 +57,13 @@ const TrendProducts = () => {
           </div>
         </div>
         <div className="pr-20 pl-6 mb-5 lg:mb-0 lg:mx-0 rounded-2xl bg-gradient-to-l from-[#E9EBF0] to-[#EDEDED]">
-          <div className="relative pb-20">
+          <div className="relative pb-10">
             <div className="mr-10">
-              <p className="font-semibold text-[22px]">Clock</p>
-              <p className="font-medium text-base text-[#475E68]">Starting</p>
-              <p className="text-[#FF4516] mt-[14px]">$25.00</p>
+              <p className="font-semibold text-[22px] pt-7">Clock</p>
+              <p className="font-medium text-base text-[#475E68] pt-7">
+                Starting
+              </p>
+              <p className="text-[#FF4516] pt-7">$25.00</p>
             </div>
             <div className=" absolute top-[-48px] right-[-100px]">
               <Image src={product2} alt="product2" />
@@ -67,11 +71,13 @@ const TrendProducts = () => {
           </div>
         </div>
         <div className="pr-20 pl-6 mb-5 lg:mb-0 lg:mx-0 rounded-2xl bg-gradient-to-l from-[#EDEDED] to-[#F0EBFF]">
-          <div className="relative pb-20">
+          <div className="relative pb-10">
             <div className="mr-3">
-              <p className=" font-semibold text-[22px]">Curology</p>
-              <p className=" font-medium text-base text-[#475E68]">Starting</p>
-              <p className="text-[#FF4516] mt-[14px]">$12.00</p>
+              <p className=" font-semibold text-[22px] pt-7">Curology</p>
+              <p className=" font-medium text-base text-[#475E68] pt-7">
+                Starting
+              </p>
+              <p className="text-[#FF4516] pt-7">$12.00</p>
             </div>
             <div className=" absolute top-[-48px] right-[-100px]">
               <Image src={product3} alt="product3" />
@@ -79,11 +85,13 @@ const TrendProducts = () => {
           </div>
         </div>
         <div className="pr-20 pl-6 mb-5 lg:mb-0 lg:mx-0 rounded-2xl bg-gradient-to-l from-[#EBF9FF] to-[#EDEDED]">
-          <div className="relative pb-20">
+          <div className="relative pb-10">
             <div className="mr-10">
-              <p className="font-semibold text-[22px]">Chair</p>
-              <p className="font-medium text-base text-[#475E68]">Starting</p>
-              <p className="text-[#FF4516] mt-[14px]">$16.00</p>
+              <p className="font-semibold text-[22px] pt-7">Chair</p>
+              <p className="font-medium text-base text-[#475E68] pt-7">
+                Starting
+              </p>
+              <p className="text-[#FF4516] pt-7 ">$16.00</p>
             </div>
             <div className=" absolute top-[-48px] right-[-100px]">
               <Image src={product4} alt="product4" />
@@ -91,11 +99,13 @@ const TrendProducts = () => {
           </div>
         </div>
         <div className="pr-28 pl-6 mb-5 lg:mb-0 lg:mx-0 rounded-2xl bg-gradient-to-l from-[#E9F0FF] to-[#EDEDED]">
-          <div className="relative pb-20 ">
+          <div className="relative pb-10 ">
             <div className="mr-3">
-              <p className=" font-semibold text-[22px]">Curology</p>
-              <p className=" font-medium text-base text-[#475E68]">Starting</p>
-              <p className="text-[#FF4516] mt-[14px] flex items-end">$60.00</p>
+              <p className=" font-semibold text-[22px] pt-7">Curology</p>
+              <p className=" font-medium text-base text-[#475E68] pt-7">
+                Starting
+              </p>
+              <p className="text-[#FF4516]  pt-7 flex items-end">$60.00</p>
             </div>
             <div className=" absolute top-[-30px] right-[-100px]">
               <Image src={product5} alt="product5" />
