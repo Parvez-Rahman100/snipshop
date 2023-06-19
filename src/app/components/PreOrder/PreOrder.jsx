@@ -1,4 +1,5 @@
 "use client";
+
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import {
@@ -16,6 +17,7 @@ const PreOrder = () => {
       .then((res) => res.json())
       .then((data) => setPreProduct(data));
   }, []);
+
   return (
     <div className="container mx-auto mt-48">
       <div className="relative">
@@ -24,7 +26,7 @@ const PreOrder = () => {
         </h1>
         <Link
           href="/Products"
-          className=" absolute top-[10px] font-medium text-base right-0 flex justify-center items-center"
+          className=" absolute top-[10px] hover:bg-[#1E66FF] ease-in-out duration-200 rounded-2xl hover:text-white p-2 font-medium text-base right-0 flex justify-center items-center"
         >
           <p>Discover Our Products</p>
           <BsArrowRight className="ml-3" />

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
 import brand1 from "../../../assets/brand1.png";
 import brand2 from "../../../assets/brand2.svg";
@@ -50,10 +51,13 @@ const Brands = () => {
           <p className="font-normal text-lg text-[#585858] mb-16">
             Life is hard enough already. Let us make it a little easier.
           </p>
-          <div className="cursor-pointer font-medium text-base  flex justify-center items-center">
+          <Link
+            href="/Products"
+            className="cursor-pointer font-medium text-base  flex justify-center items-center"
+          >
             <p>See All</p>
             <BsArrowRight className="ml-3" />
-          </div>
+          </Link>
         </div>
       </div>
     </div>

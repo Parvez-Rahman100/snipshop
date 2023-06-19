@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { AiOutlineHeart } from "react-icons/ai";
 import { BsFillHandbagFill, BsFillPersonFill } from "react-icons/bs";

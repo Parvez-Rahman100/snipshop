@@ -6,8 +6,7 @@ import Cat from "./Cat";
 const Catagory = () => {
   return (
     <div className="container mx-auto mt-[172px]">
-      <h1 className=" font-bold text-4xl">Shop by Category</h1>
-
+      <h1 className="font-bold text-4xl">Shop by Category</h1>
       <div className="relative mb-[76px]">
         <div>
           <p className=" font-normal text-lg text-[#000002] mt-6">

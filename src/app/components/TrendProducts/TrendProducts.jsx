@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import { BsArrowLeftCircle, BsFillArrowRightCircleFill } from "react-icons/bs";
 import product1 from "../../../assets/product1.png";
